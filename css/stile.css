@@ -1,0 +1,599 @@
+/**
+ * In questo file ho il foglio di stile del mio progetto
+ * @author Alessandro Nasso
+ */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background: url(../img/sfondo.jpg) no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+legend{
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 1.2;
+	background: #1F497D;
+    color: #fff;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+form{
+	padding-left: 16px;
+}
+
+fieldset{
+	margin: auto;
+	width: 350px;
+	margin-bottom: 50px;
+	border: solid 5px #1F497D;
+	background-color:#D3D3D3 !important;
+}
+
+input{
+	width: 300px;
+	margin: auto;
+	margin-bottom: 30px;
+	height: 30px;
+}
+
+label{
+	font-weight: 600;
+}
+
+.error{
+	color: red;
+}
+
+/*-------login.php-------*/
+#nuovo{
+	color: #777;
+	font-weight: normal;
+	text-align: center;
+	width: 318px;
+}
+
+#nuovo > hr{
+	width: 20%;
+	border-top: 1px solid #AAA;
+}
+
+#nuovo > #lhr{
+	float: left;
+	margin-left: 2%;
+}
+
+#nuovo > #rhr{
+	float: right;
+	margin-right: 2%;
+}
+
+.conferma{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E7E7E7), to(#D8D8D8));
+	background-image: -webkit-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -moz-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -ms-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -o-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: linear-gradient(to bottom,#E7E7E7, #D8D8D8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a9db80, endColorstr=#96c56f);
+	font-weight: bold;
+}
+
+.conferma:hover{
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E7E7E7), to(#D8D8D8));
+	background-image: -webkit-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -moz-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -ms-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: -o-linear-gradient(top, #E7E7E7, #D8D8D8);
+	background-image: linear-gradient(to bottom, #E7E7E7, #D8D8D8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E7E7E7, endColorstr=#7bb64b);
+}
+
+.conferma, #registrazione{
+	width: 318px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+/*------------------------*/
+
+/*-------header.html-------*/
+#bannerarea{ 
+	width: 550px;
+	height: 225px;
+	margin: auto;
+}
+
+#bannerarea > img{
+	width: 80%;
+	height: 80%;
+	margin: 5%;
+    margin-left: 50px;
+}
+/*------------------------*/
+
+/*-------footer.html-------*/
+#footer{
+	clear: both;
+	text-align: center;
+	color: #777;
+	font-size: 12px;
+	height: 15px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	bottom: 0px;
+    padding-top: 40px;
+}
+/*------------------------*/
+
+/*-------homeheader.html-------*/
+
+#header{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E7E7E7), to(#D8D8D8));
+    background-image: -webkit-linear-gradient(top, #E7E7E7, #D8D8D8);
+    background-image: -moz-linear-gradient(top, #E7E7E7, #D8D8D8);
+    background-image: -ms-linear-gradient(top, #E7E7E7, #D8D8D8);
+    background-image: -o-linear-gradient(top, #E7E7E7, #D8D8D8);
+    background-image: linear-gradient(to bottom, #E7E7E7, #D8D8D8);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E7E7E7, endColorstr=#D8D8D8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -10px;
+    z-index: 10;
+}
+
+#header > img {
+    width: 220px;
+    height: 88px;
+    margin-left: 30px;
+}
+
+#research{
+    position:absolute;
+    border-radius: 10px;
+    height: 30px;
+    width: 75%;
+}
+#search{
+    position:absolute;
+    top:20px;
+    z-index:10;
+    width: 51%;
+    left:300px;
+    border-radius: 10px;
+    height: 36px;
+}
+
+#searchbutton{
+    width: 20%;
+    position: absolute;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#333)to(#222));
+    background-image: -webkit-linear-gradient(top, #222, #333);
+    background-image: -moz-linear-gradient(top, #222, #333);
+    background-image: -ms-linear-gradient(top, #222, #333);
+    background-image: -o-linear-gradient(top, #222, #333);
+    background-image: linear-gradient(to bottom, #222, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#65973E, endColorstr=#54862B);
+    color:white;
+    right: 0;
+    opacity: 0.85;
+}
+
+
+#carrello > img{
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+}
+
+#carrello{
+    top:15px;
+    z-index: 10;
+    padding-right: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: bolder;
+    position: absolute;
+    right: 50px;
+    border-radius: 10px;
+    border: 5px solid transparent;
+}
+
+#carrello:hover{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#E7E7E7), to(#BFBFBF));
+    background-image: -webkit-linear-gradient(top, #E7E7E7, #BFBFBF);
+    background-image: -moz-linear-gradient(top, #E7E7E7, #BFBFBF);
+    background-image: -ms-linear-gradient(top, #E7E7E7,#BFBFBF);
+    background-image: -o-linear-gradient(top, #E7E7E7, #BFBFBF);
+    background-image: linear-gradient(to bottom, #E7E7E7, #BFBFBF);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#E7E7E7, endColorstr=#BFBFBF);
+}
+
+.carrelloHover{
+    background: -moz-radial-gradient(center, ellipse cover, #E7E7E7 0%, #BFBFBF 100%); /* ff3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #E7E7E7), color-stop(100%, #BFBFBF)); /* safari4+,chrome */
+    background: -webkit-radial-gradient(center, ellipse cover, #E7E7E7 0%, #BFBFBF 100%); /* safari5.1+,chrome10+ */
+    background: -o-radial-gradient(center, ellipse cover, #E7E7E7 0%, #BFBFBF 100%); /* opera 11.10+ */
+    background: -ms-radial-gradient(center, ellipse cover, #E7E7E7 0%, #BFBFBF 100%); /* ie10+ */
+    background: radial-gradient(ellipse at center, #E7E7E7 0%, #BFBFBF 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7E7E7', endColorstr='#BFBFBF',GradientType=1 ); /* ie6-9 */
+}
+/*------------------------*/
+
+/*-------menu.php-------*/
+#menu{
+    position: absolute;
+    top: 88px;
+    left: 0;
+    right: -10px;
+    font-size: 16px;
+    z-index: 10;
+}
+
+#menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#333)to(#222));
+    background-image: -webkit-linear-gradient(top, #222, #333);
+    background-image: -moz-linear-gradient(top, #222, #333);
+    background-image: -ms-linear-gradient(top, #222, #333);
+    background-image: -o-linear-gradient(top, #222, #333);
+    background-image: linear-gradient(to bottom, #222, #333);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#65973E, endColorstr=#54862B);
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background-color: #111;
+}
+
+#menu li:last-child{
+    float:right;
+    margin-right: 10px;
+}
+
+/*-------prodotti.php-------*/
+
+#prodotti{
+    clear: right;
+    padding-top: 120px;
+}
+
+/*------------------------*/
+
+/*Prodotti nella sezione "I miei ordini"*/
+
+.prodotto {
+    width: 35%;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    clear: both;
+    background-color: white;
+}
+
+.prodotto img:not(.remove){
+    width: 100px;
+    height: 100px;
+    float:left;
+}
+
+#nomeprod{
+    text-shadow: 2px 0 0 #ddd, -2px 0 0 #ddd, 0 2px 0 #ddd, 0 -2px 0 #ddd, 1px 1px #ddd, -1px -1px 0 #ddd, 1px -1px 0 #ddd, -1px 1px 0 #ddd;
+    margin-top:25px;
+    color: #0000BB;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#quanprod {
+    color: #00AA00;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}
+
+.nomeprod{
+    color: #0000BB;
+    padding-left: 30px;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+.quanprod{
+    overflow: hidden;
+    float:right;
+    margin-top: 70px;
+}
+
+div span{
+    color: #BBB;
+    font-size:16px;
+    font-weight: normal;
+}
+
+/*------------------------*/
+
+/*Prodotti nella sezione "Carrello"*/
+
+#checkout{
+    height: 30px;
+    padding-bottom: 0px;
+    clear: both;
+}
+
+#checkout input{
+    width: 60%;
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}
+
+#prodotto {
+    font-size: 16px;
+}
+
+.carrellotext{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top:100px;
+    margin-left: 20px;
+    color: #E7E7E7;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.carrellotext {
+    top: 10px;
+}
+
+.conferma{
+    min-width: 100px;
+}
+
+.remove{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+/*Elenco prodotti */
+.prod-info-main {
+    border: 2px solid #000000;
+    width: 550px;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 600px;
+    margin-left: 250px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 6px;
+}
+
+.prod-info-main .product-image { 
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+.prod-info-main .product-deatil {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #fff
+}
+
+.product-content .product-deatil h5 a {
+    color: #2f383d;
+    font-size: 15px;
+    line-height: 19px;
+    text-decoration: none;
+    padding-left: 0;
+    margin-left: 0
+}
+
+.prod-info-main .product-deatil h5 a span {
+    color: #9aa7af;
+    display: block;
+    font-size: 13px
+}
+
+.prod-info-main .product-deatil span.tag1 {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    height: 50px;
+    padding: 13px 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 50px
+}
+
+.prod-info-main .description {
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 2px 14px 0px 19px;
+    background: #fff;
+}
+
+.prod-info-main .product-info {
+    padding: 11px 19px 10px 20px
+}
+
+.prod-info-main .product-info a.add-to-cart {
+    color: #2f383d;
+    font-size: 13px;
+    padding-left: 16px
+}
+
+.prod-info-main name.a {
+    padding: 5px 10px;
+    margin-left: 16px
+}
+
+.product-info.smart-form .btn {
+    padding: 6px 12px;
+    margin-left: 12px;
+    margin-top: -10px
+}
+
+.product-block .product-deatil p.price-container span,
+.prod-info-main .product-deatil p.price-container span,
+.shipping table tbody tr td p.price-container span,
+.shopping-items table tbody tr td p.price-container span {
+    color: #21c2f8;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    line-height: 20px
+}
+
+.product-deatil .product-image {
+    border-right: 0px solid #fff !important
+}
+
+.product-deatil .name { 
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.product-deatil .name small {
+    display: block
+}
+
+.product-deatil .name a {
+    margin-left: 0
+}
+
+.product-deatil .price-container {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.product-deatil .price-container small {
+    font-size: 12px;
+}
+
+.product-deatil .fa-2x {
+    font-size: 16px!important
+}
+
+.product-deatil .fa-2x>h5 {
+    font-size: 12px;
+    margin: 0
+}
+
+.product-deatil .fa-2x+a,
+.product-deatil .fa-2x+a+a {
+    font-size: 13px
+}
+
+/*------------------------*/
+
+/*Sezione "I miei ordini" */
+.prod-info-main2 {
+    border: 2px solid;
+    width: 550px;
+    height: 180px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 600px;
+    margin-left: 250px;
+    background: #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 6px;
+}
+
+.prod-info-main .product-image {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+.prod-info-main2 .product-deatil {
+    border-bottom: 1px solid #dfe5e9;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-top: 16px;
+    position: relative;
+    background: #fff
+}
+
+.prod-info-main2 .product-deatil h5 a span {
+    color: #9aa7af;
+    display: block;
+    font-size: 13px
+}
+
+.prod-info-main2 .product-deatil span.tag1 {
+    border-radius: 50%;
+    color: #fff;
+    font-size: 15px;
+    height: 50px;
+    padding: 13px 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 50px
+}
+
+.prod-info-main2 .description {
+    font-size: 12.5px;
+    line-height: 20px;
+    padding: 2px 14px 0px 19px;
+    background: #fff;
+}
+
+.prod-info-main2 .product-info {
+    padding: 11px 19px 10px 20px
+}
+
+.prod-info-main2 .product-info a.add-to-cart {
+    color: #2f383d;
+    font-size: 13px;
+    padding-left: 16px
+}
+
+.prod-info-main2 name.a {
+    padding: 5px 10px;
+    margin-left: 16px
+}
+
+#minion img{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
